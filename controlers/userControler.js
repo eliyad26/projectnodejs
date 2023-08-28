@@ -3,7 +3,6 @@ const { getData } = require("../dal/usersdal");
 // const { forEach, findIndex } = require("lodash");
 const { findindex } = require("../dal/usersdal");
 const { getbyid } = require("../dal/usersdal");
-
 //פונקציה שמדפיסה את המוצרים בחנות
 const listItems = (req, res) => {
   let data = getData();
